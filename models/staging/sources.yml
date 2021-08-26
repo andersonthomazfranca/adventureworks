@@ -1,0 +1,47 @@
+version: 2
+
+sources:
+  - name: adventureworkserp
+    description: Esta é a fonte de dados do ERP da adventure works, criada através do stitch
+    tables:
+      - name: address
+        description: Esta é a tabela que contem os dados sobre os endereços cadastrados no EPR da adventure works.
+
+      - name: countryregion
+        description: Esta é a tabela que contem os detalhes sobre as regiões cadastradas no EPR da adventure works.
+
+      - name: creditcard
+        description: Esta é a tabela que contem informações sobre os dados dos cartões cadastrados do EPR da adventure works.
+
+      - name: customer
+        description: Esta é a tabela que contem informações sobre os clientes cadastrados no EPR da adventure works.
+
+      - name: employee
+        description: Esta é a tabela que contem informações sobre os empregados cadastrados no EPR da adventure works.
+
+      - name: person
+        description: Esta é a tabela que contem informações sobre as pessoas cadastradas no EPR da adventure works.
+
+      - name: product
+        description: Esta é a tabela que contem informações sobre os produtos cadastrados no EPR da adventure works.
+
+      - name: salesorderdetail
+        description: Esta é a tabela que contem informações sobre os detalhes dos pedidos registrados no EPR da adventure works.
+        
+      - name: salesorderheader
+        description: Esta é a tabela que contem informações sobre os pedidos registrados no EPR da adventure works.
+        
+      - name: salesorderheadersalesreason
+        description: Esta é a tabela que contem informações sobre os motivos de vendas dos pedidos registrados no EPR da adventure works.
+        
+      - name: salesperson
+        description: Esta é a tabela que contem informações sobre os vendedores cadastrados no EPR da adventure works.
+        
+      - name: salesreason
+        description: Esta é a tabela que contem informações sobre os tipos motivos de venda cadastrados no EPR da adventure works.
+        
+      - name: salesterritory
+        description: Esta é a tabela que contem informações sobre os territórios de venda cadastrados no EPR da adventure works.
+        
+      - name: stateprovince
+        description: Esta é a tabela que contem informações sobre os provincias cadastrados no EPR da adventure works.
